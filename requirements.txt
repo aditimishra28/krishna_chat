@@ -1,0 +1,20 @@
+# Core dependencies
+llama-index>=0.10.30
+torch>=2.1.0
+transformers>=4.40.0
+sentence-transformers>=2.2.2
+
+# PDF extraction
+PyMuPDF>=1.23.0  # used as 'fitz'
+
+# Optional: for logging formatting (optional)
+loguru>=0.7.2
+
+# System utilities
+tqdm>=4.66.0
+
+# Optional: accelerate loading on some setups (especially for HuggingFace LLMs)
+accelerate>=0.27.2
+
+# Required if you're using HuggingFaceEmbedding and HuggingFaceLLM
+huggingface-hub>=0.21.4
